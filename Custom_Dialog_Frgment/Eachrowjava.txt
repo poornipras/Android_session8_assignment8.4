@@ -1,0 +1,40 @@
+package com.pooja.customdialog;
+
+/**
+ * Created by Pooja on 1/14/2017.
+ */
+
+public class Eachrow
+{
+    String txtname,txtphone,txtdob;
+    public Eachrow(String tname,String tphone,String tdob)
+    {
+        txtname=tname;
+        txtphone=tphone;
+        txtdob=tdob;
+    }
+
+    public String getTxtname() {
+        return txtname;
+    }
+
+    public void setTxtname(String txtname) {
+        this.txtname = txtname;
+    }
+
+    public String getTxtphone() {
+        return txtphone;
+    }
+
+    public void setTxtphone(String txtphone) {
+        this.txtphone = txtphone;
+    }
+
+    public String getTxtdob() {
+        return txtdob;
+    }
+
+    public void setTxtdob(String txtdob) {
+        this.txtdob = txtdob;
+    }
+}
